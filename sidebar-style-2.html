@@ -1,17 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Kaiadmin - Bootstrap 5 Admin Dashboard</title>
-    <meta
-      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
-      name="viewport"
-    />
-    <link
-      rel="icon"
-      href="assets/img/kaiadmin/favicon.ico"
-      type="image/x-icon"
-    />
+    <title>ChocoAges</title>
+    <meta content="width=device-width, initial-scale=1.0, shrink-to-fit=no" name="viewport" />
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon" />
+
 
     <!-- Fonts and icons -->
     <script src="assets/js/plugin/webfont/webfont.min.js"></script>
@@ -44,16 +38,16 @@
   <body>
     <div class="wrapper">
       <!-- Sidebar -->
-      <div class="sidebar sidebar-style-2" data-background-color="dark">
+      <div class="sidebar" data-background-color="dark">
         <div class="sidebar-logo">
           <!-- Logo Header -->
           <div class="logo-header" data-background-color="dark">
             <a href="index.html" class="logo">
               <img
-                src="assets/img/kaiadmin/logo_light.svg"
+                src="assets/img/kaiadmin/logochocoAges.svg"
                 alt="navbar brand"
                 class="navbar-brand"
-                height="20"
+                height="60"
               />
             </a>
             <div class="nav-toggle">
@@ -68,103 +62,63 @@
               <i class="gg-more-vertical-alt"></i>
             </button>
           </div>
-          <!-- End Logo Header -->
+                    <!-- End Logo Header -->
         </div>
         <div class="sidebar-wrapper scrollbar scrollbar-inner">
           <div class="sidebar-content">
             <ul class="nav nav-secondary">
-              <li class="nav-item">
-                <a
-                  data-bs-toggle="collapse"
-                  href="#dashboard"
-                  class="collapsed"
-                  aria-expanded="false"
-                >
+              <li class="nav-item active">
+                <a>
                   <i class="fas fa-home"></i>
-                  <p>Dashboard</p>
-                  <span class="caret"></span>
+                  <p>Visão Geral</p>
                 </a>
-                <div class="collapse" id="dashboard">
+                <div  id="dashboard">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="../demo1/index.html">
-                        <span class="sub-item">Dashboard 1</span>
-                      </a>
-                    </li>
-                  </ul>
                 </div>
               </li>
               <li class="nav-section">
                 <span class="sidebar-mini-icon">
                   <i class="fa fa-ellipsis-h"></i>
                 </span>
-                <h4 class="text-section">Components</h4>
+                <h4 class="text-section">Componentes</h4>
               </li>
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#base">
                   <i class="fas fa-layer-group"></i>
-                  <p>Base</p>
+                  <p>Plano de Carreira</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="base">
                   <ul class="nav nav-collapse">
                     <li>
-                      <a href="components/avatars.html">
-                        <span class="sub-item">Avatars</span>
+                       <a href="trilhas/trilha-junior-pleno.html">
+                        <span class="sub-item">Trilha Júnior → Pleno</span>
                       </a>
-                    </li>
-                    <li>
-                      <a href="components/buttons.html">
-                        <span class="sub-item">Buttons</span>
+                      </li>
+                      <li>
+                         <a href="trilhas/pdi.html">
+                        <span class="sub-item">Plano de Desenvolvimento Individual (PDI)</span>
                       </a>
-                    </li>
-                    <li>
-                      <a href="components/gridsystem.html">
-                        <span class="sub-item">Grid System</span>
+                      </li>
+                      <li>
+                         <a href="trilhas/criterios-promocao.html">
+                        <span class="sub-item">Critérios para Promoção</span>
                       </a>
-                    </li>
-                    <li>
-                      <a href="components/panels.html">
-                        <span class="sub-item">Panels</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/notifications.html">
-                        <span class="sub-item">Notifications</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/sweetalert.html">
-                        <span class="sub-item">Sweet Alert</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/font-awesome-icons.html">
-                        <span class="sub-item">Font Awesome Icons</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/simple-line-icons.html">
-                        <span class="sub-item">Simple Line Icons</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="components/typography.html">
-                        <span class="sub-item">Typography</span>
-                      </a>
-                    </li>
+                      </li>
+
                   </ul>
                 </div>
               </li>
-              <li class="nav-item active submenu">
+              <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#sidebarLayouts">
                   <i class="fas fa-th-list"></i>
-                  <p>Sidebar Layouts</p>
+                  <p>Estrutura Organizacional</p>
                   <span class="caret"></span>
                 </a>
-                <div class="collapse show" id="sidebarLayouts">
+                <div class="collapse" id="sidebarLayouts">
                   <ul class="nav nav-collapse">
-                    <li class="active">
+                    <li>
                       <a href="sidebar-style-2.html">
                         <span class="sub-item">Sidebar Style 2</span>
                       </a>
@@ -180,7 +134,7 @@
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#forms">
                   <i class="fas fa-pen-square"></i>
-                  <p>Forms</p>
+                  <p>Formulários de Avaliação</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="forms">
@@ -196,7 +150,7 @@
               <li class="nav-item">
                 <a data-bs-toggle="collapse" href="#tables">
                   <i class="fas fa-table"></i>
-                  <p>Tables</p>
+                  <p>Relatórios & Indicadores</p>
                   <span class="caret"></span>
                 </a>
                 <div class="collapse" id="tables">
@@ -213,60 +167,17 @@
                     </li>
                   </ul>
                 </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#maps">
-                  <i class="fas fa-map-marker-alt"></i>
-                  <p>Maps</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="maps">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="maps/googlemaps.html">
-                        <span class="sub-item">Google Maps</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="maps/jsvectormap.html">
-                        <span class="sub-item">Jsvectormap</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="nav-item">
-                <a data-bs-toggle="collapse" href="#charts">
-                  <i class="far fa-chart-bar"></i>
-                  <p>Charts</p>
-                  <span class="caret"></span>
-                </a>
-                <div class="collapse" id="charts">
-                  <ul class="nav nav-collapse">
-                    <li>
-                      <a href="charts/charts.html">
-                        <span class="sub-item">Chart Js</span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="charts/sparkline.html">
-                        <span class="sub-item">Sparkline</span>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
               <li class="nav-item">
                 <a href="widgets.html">
                   <i class="fas fa-desktop"></i>
-                  <p>Widgets</p>
+                  <p>Painel de Acompanhamnto</p>
                   <span class="badge badge-success">4</span>
                 </a>
               </li>
               <li class="nav-item">
                 <a href="../../documentation/index.html">
                   <i class="fas fa-file"></i>
-                  <p>Documentation</p>
+                  <p>Guias e Materiais</p>
                   <span class="badge badge-secondary">1</span>
                 </a>
               </li>
@@ -370,7 +281,7 @@
                   </div>
                   <input
                     type="text"
-                    placeholder="Search ..."
+                    placeholder="Procurar ..."
                     class="form-control"
                   />
                 </div>
@@ -422,8 +333,8 @@
                       <div
                         class="dropdown-title d-flex justify-content-between align-items-center"
                       >
-                        Messages
-                        <a href="#" class="small">Mark all as read</a>
+                        Mensagens
+                        <a href="#" class="small">Marcar tudo como lido</a>
                       </div>
                     </li>
                     <li>
@@ -488,7 +399,7 @@
                     </li>
                     <li>
                       <a class="see-all" href="javascript:void(0);"
-                        >See all messages<i class="fa fa-angle-right"></i>
+                        >Ver todas as mensagens<i class="fa fa-angle-right"></i>
                       </a>
                     </li>
                   </ul>
@@ -512,7 +423,7 @@
                   >
                     <li>
                       <div class="dropdown-title">
-                        You have 4 new notification
+                        Você tem 4 notificações
                       </div>
                     </li>
                     <li>
@@ -566,7 +477,7 @@
                     </li>
                     <li>
                       <a class="see-all" href="javascript:void(0);"
-                        >See all notifications<i class="fa fa-angle-right"></i>
+                        >Ver todas as notificações<i class="fa fa-angle-right"></i>
                       </a>
                     </li>
                   </ul>
@@ -582,8 +493,8 @@
                   </a>
                   <div class="dropdown-menu quick-actions animated fadeIn">
                     <div class="quick-actions-header">
-                      <span class="title mb-1">Quick Actions</span>
-                      <span class="subtitle op-7">Shortcuts</span>
+                      <span class="title mb-1">Ações rápidas</span>
+                      <span class="subtitle op-7">Atalhos</span>
                     </div>
                     <div class="quick-actions-scroll scrollbar-outer">
                       <div class="quick-actions-items">
@@ -593,7 +504,7 @@
                               <div class="avatar-item bg-danger rounded-circle">
                                 <i class="far fa-calendar-alt"></i>
                               </div>
-                              <span class="text">Calendar</span>
+                              <span class="text">Calendário</span>
                             </div>
                           </a>
                           <a class="col-6 col-md-4 p-0" href="#">
@@ -603,7 +514,7 @@
                               >
                                 <i class="fas fa-map"></i>
                               </div>
-                              <span class="text">Maps</span>
+                              <span class="text">Mapa</span>
                             </div>
                           </a>
                           <a class="col-6 col-md-4 p-0" href="#">
@@ -611,7 +522,7 @@
                               <div class="avatar-item bg-info rounded-circle">
                                 <i class="fas fa-file-excel"></i>
                               </div>
-                              <span class="text">Reports</span>
+                              <span class="text">Reportes</span>
                             </div>
                           </a>
                           <a class="col-6 col-md-4 p-0" href="#">
@@ -631,7 +542,7 @@
                               >
                                 <i class="fas fa-file-invoice-dollar"></i>
                               </div>
-                              <span class="text">Invoice</span>
+                              <span class="text">Fatura</span>
                             </div>
                           </a>
                           <a class="col-6 col-md-4 p-0" href="#">
@@ -641,7 +552,7 @@
                               >
                                 <i class="fas fa-credit-card"></i>
                               </div>
-                              <span class="text">Payments</span>
+                              <span class="text">Pagamentos</span>
                             </div>
                           </a>
                         </div>
@@ -665,8 +576,8 @@
                       />
                     </div>
                     <span class="profile-username">
-                      <span class="op-7">Hi,</span>
-                      <span class="fw-bold">Hizrian</span>
+                      <span class="op-7">Olá,</span>
+                      <span class="fw-bold">Paulo</span>
                     </span>
                   </a>
                   <ul class="dropdown-menu dropdown-user animated fadeIn">
@@ -681,25 +592,25 @@
                             />
                           </div>
                           <div class="u-text">
-                            <h4>Hizrian</h4>
-                            <p class="text-muted">hello@example.com</p>
+                            <h4>Paulo</h4>
+                            <p class="text-muted">Ola@example.com</p>
                             <a
                               href="profile.html"
                               class="btn btn-xs btn-secondary btn-sm"
-                              >View Profile</a
+                              >Ver Perfil</a
                             >
                           </div>
                         </div>
                       </li>
                       <li>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">My Profile</a>
-                        <a class="dropdown-item" href="#">My Balance</a>
-                        <a class="dropdown-item" href="#">Inbox</a>
+                        <a class="dropdown-item" href="#">Meu Perfil</a>
+                        <a class="dropdown-item" href="#">Meu Saldo</a>
+                        <a class="dropdown-item" href="#">Caixa de Entrada</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Account Setting</a>
+                        <a class="dropdown-item" href="#">Configuração de conta</a>
                         <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Logout</a>
+                        <a class="dropdown-item" href="#">Sair</a>
                       </li>
                     </div>
                   </ul>
@@ -709,7 +620,6 @@
           </nav>
           <!-- End Navbar -->
         </div>
-
         <div class="container">
           <div class="page-inner">
             <div
